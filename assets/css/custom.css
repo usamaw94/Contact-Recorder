@@ -1,0 +1,56 @@
+/*Custom stylesheet for the apllication*/
+
+body {
+    font-family: Helvetica Neue;
+}
+
+.custom-jumbotron {
+    padding: 10px;
+}
+
+.header-text {
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.notify-panel {
+    color: white;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    display: none;
+}
+
+.float-right {
+    float: right;
+}
+
+.sort-button {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sort-button:hover {
+    color: #007bff;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-custom {
+        margin-bottom: 5px;
+    }
+
+    .edit-contact {
+        margin-bottom: 5px;
+    }
+}
